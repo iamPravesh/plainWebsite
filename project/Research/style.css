@@ -1,11 +1,12 @@
+body{
+    background-color:lavender;
+}
 .container{
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    background-color: gainsboro;
 }
 
 .header{
@@ -39,4 +40,131 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    margin-right: 20px;
+    /* background-color: white; */
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-field{
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    height: 30px;
+}
+
+.form-description{
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 40px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px;
+}
+
+.foot-row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page-brief{
+    width: 60%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.foot-links{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+.customer-support{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: white; */
+    margin-right: 15px;
+}
+
+.foot-row2{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.e-pay-title{
+    background-color: white;
+    border: 1px solid black;
+    width: 10%
+}
+
+.e-pay-merchant{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.e-sewa{
+    margin-right: 15px;
 }
