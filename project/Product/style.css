@@ -45,7 +45,7 @@ body{
 .content{
     display: flex;
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     margin-top: 15px;
 }
@@ -140,7 +140,8 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* background-color: white; */
+    background-color: white;
+    border: 1px solid black;
     margin-right: 15px;
 }
 
@@ -167,4 +168,81 @@ body{
 
 .e-sewa{
     margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+a:active{
+    border-bottom: 2px solid gray;
+}
+
+#selectors{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 13%;
+}
+
+.book-cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.book-cat > p{
+    cursor: pointer;
+}
+
+#products{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    width: 84%;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+}
+
+.product-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+a:active{
+    border-bottom: 2px solid gray;
 }

@@ -47,7 +47,7 @@ body{
     width: 100%;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .description{
@@ -60,6 +60,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .contact-form{
@@ -140,7 +141,8 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* background-color: white; */
+    background-color: white;
+    border: 1px solid black;
     margin-right: 15px;
 }
 
@@ -168,3 +170,27 @@ body{
 .e-sewa{
     margin-right: 15px;
 }
+
+.sm{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15;
+}
+
+.icon{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+a:active{
+    border-bottom: 2px solid gray;
+}
+
