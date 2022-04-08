@@ -1,8 +1,20 @@
 <html>
   <head>
-    <title>Home</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <script type="text/javascript" src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/54b041d862.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -36,9 +48,17 @@
         </div>
         <div class="two-col">
           <div class="contact-info">
-            <div class="sm1">some text 1</div>
-            <div class="sm2">some text 2</div>
-            <div class="sm3">some text 3</div>
+            <div class="sm">
+              <i class="fa fa-phone icon" style="margin-left: 15"></i>
+              +977-984-696874, 01-552489
+            </div>
+            <div class="sm">
+              <i class="material-icons icon">alarm</i> Serving 7 Days a week
+            </div>
+            <div class="sm">
+              <i class="fa fa-envelope icon" style="margin-left: 14"></i>
+              bookadmin12@booktown.com
+            </div>
           </div>
           <div class="contact-form">
             <form action="">
@@ -46,13 +66,15 @@
                 <input
                   class="form-field"
                   type="text"
-                  name=""
+                  name="name"
+                  id="name"
                   placeholder="Full Name"
                 />
                 <input
                   class="form-field"
                   type="email"
-                  name=""
+                  name="email"
+                  id="email"
                   placeholder="Email Address"
                 />
               </div>
@@ -60,28 +82,32 @@
                 <input
                   class="form-field"
                   type="text"
-                  name=""
+                  name="number"
+                  id="number"
                   placeholder="Phone Number"
                 />
                 <input
                   class="form-field"
-                  type="email"
-                  name=""
+                  type="string"
+                  name="address"
+                  id="address"
                   placeholder="Address"
                 />
               </div>
               <div class="form-row">
                 <textarea
                   class="form-description"
-                  name=""
-                  id=""
+                  name="message"
+                  id="message"
                   cols="30"
                   rows="10"
                   placeholder="Message"
                 ></textarea>
               </div>
               <div class="form-row">
-                <button class="submit-btn">Send Message</button>
+                <button class="submit-btn" onclick="formSubmitted()">
+                  Send Message
+                </button>
               </div>
             </form>
           </div>
@@ -99,11 +125,11 @@
             deserunt omnis perferendis. lorem ipsum dolor sit amet..
           </div>
           <div class="foot-links">
-            <!-- <a href="../Home/index.html">Home</a> -->
+            <a href="../Home/index.html">Home</a>
             <a href="../Product/index.html">Product</a>
             <a href="../Blog/index.html">Blog</a>
             <a href="../Research/index.html">Research</a>
-            <a href="../Contact/index.html">Contact Us</a>
+            <!-- <a href="../Contact/index.html">Contact Us</a> -->
           </div>
           <div class="customer-support">
             <div class="cus-title">Customer Support</div>
