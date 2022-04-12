@@ -59,6 +59,36 @@ body{
     margin-top: 10px;
 }
 
+.top-img{
+    height: 800;
+    width: 100%;
+    background-image: url('https://traversingtradition.files.wordpress.com/2022/03/zdenek-machacek-lmztt6q8tt0-unsplash.jpg?w=350&h=200&crop=1');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-img > a > button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.top-img > a > button:hover {
+    background-color: #45a049;
+    box-shadow: 0px 0px 0px 2px #4CAF50;
+    border: 2px double #4CAF50;
+}
+
 .row-top{
     display: flex;
     flex-direction: row;
@@ -143,4 +173,47 @@ a{
 
 a:active{
     border-bottom: 2px solid gray;
+}
+
+.page-brief{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.subscription > input {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 20%;
+    height: 40px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+.subscription > button:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 0px 2px #4CAF50;
+    border: 2px double #4CAF50;
+    cursor: pointer;
 }

@@ -54,6 +54,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
 }
 
 .two-col{
@@ -194,3 +198,11 @@ a:active{
     border-bottom: 2px solid gray;
 }
 
+.page-brief{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+}

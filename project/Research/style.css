@@ -179,3 +179,43 @@ a{
 a:active{
     border-bottom: 2px solid gray;
 }
+
+.research-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid blue;
+}
+
+.research-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.research-text{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.research-text:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.page-brief{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+}

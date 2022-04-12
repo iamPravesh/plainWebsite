@@ -16,6 +16,15 @@ body{
     width: 100%; 
 }
 
+.page-brief{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
 .head-img{
     display: flex;
 }
